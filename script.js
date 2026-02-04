@@ -15,3 +15,12 @@ links.forEach(link => {
         link.classList.add("active");
     }
 });
+
+
+document.querySelector(".services-menu").onclick = function () {
+  document.querySelector(".dropdown").classList.toggle("show");
+}
+
+
+
+
