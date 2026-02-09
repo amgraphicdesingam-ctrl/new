@@ -323,12 +323,12 @@ border: 2px solid #e63946; /* لون الstrook */
 .why-image {
     margin-top: 30px;
     width: 100%;
-    max-width: 350px; /* كانت 480px */
+    max-width: 350px; 
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-/* 📱 فالتلفون */
+
 @media (max-width: 768px) {
     .why-content {
         flex-direction: column;
@@ -368,9 +368,9 @@ border: 2px solid #e63946; /* لون الstrook */
 
 
 .hero2 {
-    height: 50vh; /* cover كامل الشاشة */
+    height: 50vh;
     background-image: url("https://wallpapers.com/images/hd/finger-pointing-contact-us-nmgnzu9fqlu25pri.jpg");
-    background-size: cover;       /* 👈 هادي هي cover */
+    background-size: cover;      
     background-position: center;
     background-repeat: no-repeat;
 
@@ -389,9 +389,9 @@ border: 2px solid #e63946; /* لون الstrook */
 
 
 .hero3 {
-    height: 50vh; /* cover كامل الشاشة */
+    height: 50vh; 
     background-image: url("https://img-4.linternaute.com/Xq_3DDsfuSqUXBeNhTzt7WDqTn4=/1500x/smart/cedb92ee4ae0473692e570daad566d17/ccmcms-linternaute/10659283.jpg");
-    background-size: cover;       /* 👈 هادي هي cover */
+    background-size: cover;      
     background-position: center;
     background-repeat: no-repeat;
 
@@ -1358,6 +1358,62 @@ left: 20px;
 
 
 
+#booking-card {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+#booking-card h2 {
+  color: #c9a227; /* ذهبي */
+  margin-bottom: 20px;
+}
+
+#booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+#booking-form input,
+#booking-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#booking-form textarea {
+  resize: none;
+}
+
+#booking-form button {
+  background: #c9a227;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#booking-form button:hover {
+  background: #b08f1f;
+}
 
 
 
