@@ -21,6 +21,21 @@ document.querySelector(".services-menu").onclick = function () {
   document.querySelector(".dropdown").classList.toggle("show");
 }
 
+function toggleDropdown() {
+  document.getElementById("voituresDropdown").classList.toggle("show");
+}
+
+// Close dropdown if click outside
+window.onclick = function(event) {
+  if (!event.target.matches('.dropdown-btn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var i = 0; i < dropdowns.length; i++) {
+      dropdowns[i].classList.remove('show');
+    }
+  }
+}
+
+
 
 
 
